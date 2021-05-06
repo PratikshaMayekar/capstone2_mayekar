@@ -1,0 +1,1661 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="18" y="665" width="1314" height="262" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Housing_Price</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="77" y="750" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[housing price data from Zillow for co-relation ]]></AnnotationText>
+              <DefaultAnnotationText>City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RegionID" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="SizeRank" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="RegionName" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="RegionType" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="StateName" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="State" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="Metro" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="CountyName" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/1996" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/29/1996" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/1996" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/1996" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/1996" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/1996" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/1996" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/1996" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/1996" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/1996" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/1996" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/1996" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/1997" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/1997" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/1997" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/1997" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/1997" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/1997" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/1997" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/1997" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/1997" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/1997" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/1997" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/1997" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/1998" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/1998" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/1998" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/1998" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/1998" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/1998" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/1998" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/1998" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/1998" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/1998" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/1998" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/1998" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/1999" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/1999" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/1999" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/1999" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/1999" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/1999" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/1999" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/1999" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/1999" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/1999" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/1999" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/1999" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2000" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/29/2000" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2000" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2000" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2000" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2000" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2000" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2000" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2000" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2000" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2000" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2000" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2001" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2001" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2001" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2001" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2001" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2001" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2001" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2001" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2001" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2001" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2001" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2001" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2002" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2002" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2002" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2002" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2002" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2002" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2002" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2002" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2002" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2002" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2002" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2002" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2003" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2003" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2003" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2003" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2003" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2003" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2003" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2003" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2003" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2003" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2003" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2003" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2004" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/29/2004" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2004" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2004" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2004" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2004" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2004" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2004" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2004" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2004" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2004" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2004" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2005" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2005" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2005" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2005" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2005" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2005" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2005" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2005" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2005" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2005" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2005" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2005" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2006" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2006" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2006" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2006" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2006" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2006" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2006" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2006" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2006" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2006" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2006" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2006" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2007" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2007" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2007" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2007" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2007" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2007" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2007" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2007" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2007" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2007" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2007" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2007" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2008" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/29/2008" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2008" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2008" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2008" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2008" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2008" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2008" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2008" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2008" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2008" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2008" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2009" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2009" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2009" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2009" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2009" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2009" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2009" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2009" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2009" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2009" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2009" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2009" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2010" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2010" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2010" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2010" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2010" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2010" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2010" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2010" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2010" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2010" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2010" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2010" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2011" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2011" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2011" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2011" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2011" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2011" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2011" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2011" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2011" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2011" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2011" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2011" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2012" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/29/2012" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2012" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2012" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2012" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2012" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2012" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2012" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2012" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2012" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2012" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2012" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2013" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2013" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2013" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2013" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2013" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2013" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2013" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2013" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2013" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2013" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2013" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2013" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2014" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2014" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2014" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2014" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2014" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2014" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2014" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2014" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2014" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2014" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2014" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2014" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2015" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2015" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2015" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2015" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2015" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2015" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2015" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2015" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2015" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2015" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2015" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2015" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2016" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/29/2016" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2016" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2016" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2016" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2016" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2016" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2016" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2016" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2016" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2016" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2016" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2017" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2017" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2017" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2017" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2017" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2017" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2017" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2017" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2017" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2017" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2017" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2017" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2018" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2018" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2018" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2018" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2018" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2018" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2018" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2018" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2018" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2018" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2018" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2018" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2019" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2019" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2019" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2019" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2019" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2019" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2019" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2019" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2019" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2019" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2019" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2019" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2020" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/29/2020" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2020" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="4/30/2020" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="5/31/2020" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="6/30/2020" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="7/31/2020" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="8/31/2020" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="9/30/2020" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="10/31/2020" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="11/30/2020" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="12/31/2020" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="1/31/2021" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="2/28/2021" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+                <Field name="3/31/2021" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="246" y="749" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="RegionName" />
+                <Field field="State" />
+              </KeyFields>
+              <DataFields>
+                <Field field="RegionID" selected="False" />
+                <Field field="SizeRank" selected="False" />
+                <Field field="RegionName" selected="False" />
+                <Field field="RegionType" selected="False" />
+                <Field field="StateName" selected="False" />
+                <Field field="State" selected="False" />
+                <Field field="Metro" selected="False" />
+                <Field field="CountyName" selected="False" />
+                <Field field="1/31/1996" selected="True" />
+                <Field field="2/29/1996" selected="True" />
+                <Field field="3/31/1996" selected="True" />
+                <Field field="4/30/1996" selected="True" />
+                <Field field="5/31/1996" selected="True" />
+                <Field field="6/30/1996" selected="True" />
+                <Field field="7/31/1996" selected="True" />
+                <Field field="8/31/1996" selected="True" />
+                <Field field="9/30/1996" selected="True" />
+                <Field field="10/31/1996" selected="True" />
+                <Field field="11/30/1996" selected="True" />
+                <Field field="12/31/1996" selected="True" />
+                <Field field="1/31/1997" selected="True" />
+                <Field field="2/28/1997" selected="True" />
+                <Field field="3/31/1997" selected="True" />
+                <Field field="4/30/1997" selected="True" />
+                <Field field="5/31/1997" selected="True" />
+                <Field field="6/30/1997" selected="True" />
+                <Field field="7/31/1997" selected="True" />
+                <Field field="8/31/1997" selected="True" />
+                <Field field="9/30/1997" selected="True" />
+                <Field field="10/31/1997" selected="True" />
+                <Field field="11/30/1997" selected="True" />
+                <Field field="12/31/1997" selected="True" />
+                <Field field="1/31/1998" selected="True" />
+                <Field field="2/28/1998" selected="True" />
+                <Field field="3/31/1998" selected="True" />
+                <Field field="4/30/1998" selected="True" />
+                <Field field="5/31/1998" selected="True" />
+                <Field field="6/30/1998" selected="True" />
+                <Field field="7/31/1998" selected="True" />
+                <Field field="8/31/1998" selected="True" />
+                <Field field="9/30/1998" selected="True" />
+                <Field field="10/31/1998" selected="True" />
+                <Field field="11/30/1998" selected="True" />
+                <Field field="12/31/1998" selected="True" />
+                <Field field="1/31/1999" selected="True" />
+                <Field field="2/28/1999" selected="True" />
+                <Field field="3/31/1999" selected="True" />
+                <Field field="4/30/1999" selected="True" />
+                <Field field="5/31/1999" selected="True" />
+                <Field field="6/30/1999" selected="True" />
+                <Field field="7/31/1999" selected="True" />
+                <Field field="8/31/1999" selected="True" />
+                <Field field="9/30/1999" selected="True" />
+                <Field field="10/31/1999" selected="True" />
+                <Field field="11/30/1999" selected="True" />
+                <Field field="12/31/1999" selected="True" />
+                <Field field="1/31/2000" selected="True" />
+                <Field field="2/29/2000" selected="True" />
+                <Field field="3/31/2000" selected="True" />
+                <Field field="4/30/2000" selected="True" />
+                <Field field="5/31/2000" selected="True" />
+                <Field field="6/30/2000" selected="True" />
+                <Field field="7/31/2000" selected="True" />
+                <Field field="8/31/2000" selected="True" />
+                <Field field="9/30/2000" selected="True" />
+                <Field field="10/31/2000" selected="True" />
+                <Field field="11/30/2000" selected="True" />
+                <Field field="12/31/2000" selected="True" />
+                <Field field="1/31/2001" selected="True" />
+                <Field field="2/28/2001" selected="True" />
+                <Field field="3/31/2001" selected="True" />
+                <Field field="4/30/2001" selected="True" />
+                <Field field="5/31/2001" selected="True" />
+                <Field field="6/30/2001" selected="True" />
+                <Field field="7/31/2001" selected="True" />
+                <Field field="8/31/2001" selected="True" />
+                <Field field="9/30/2001" selected="True" />
+                <Field field="10/31/2001" selected="True" />
+                <Field field="11/30/2001" selected="True" />
+                <Field field="12/31/2001" selected="True" />
+                <Field field="1/31/2002" selected="True" />
+                <Field field="2/28/2002" selected="True" />
+                <Field field="3/31/2002" selected="True" />
+                <Field field="4/30/2002" selected="True" />
+                <Field field="5/31/2002" selected="True" />
+                <Field field="6/30/2002" selected="True" />
+                <Field field="7/31/2002" selected="True" />
+                <Field field="8/31/2002" selected="True" />
+                <Field field="9/30/2002" selected="True" />
+                <Field field="10/31/2002" selected="True" />
+                <Field field="11/30/2002" selected="True" />
+                <Field field="12/31/2002" selected="True" />
+                <Field field="1/31/2003" selected="True" />
+                <Field field="2/28/2003" selected="True" />
+                <Field field="3/31/2003" selected="True" />
+                <Field field="4/30/2003" selected="True" />
+                <Field field="5/31/2003" selected="True" />
+                <Field field="6/30/2003" selected="True" />
+                <Field field="7/31/2003" selected="True" />
+                <Field field="8/31/2003" selected="True" />
+                <Field field="9/30/2003" selected="True" />
+                <Field field="10/31/2003" selected="True" />
+                <Field field="11/30/2003" selected="True" />
+                <Field field="12/31/2003" selected="True" />
+                <Field field="1/31/2004" selected="True" />
+                <Field field="2/29/2004" selected="True" />
+                <Field field="3/31/2004" selected="True" />
+                <Field field="4/30/2004" selected="True" />
+                <Field field="5/31/2004" selected="True" />
+                <Field field="6/30/2004" selected="True" />
+                <Field field="7/31/2004" selected="True" />
+                <Field field="8/31/2004" selected="True" />
+                <Field field="9/30/2004" selected="True" />
+                <Field field="10/31/2004" selected="True" />
+                <Field field="11/30/2004" selected="True" />
+                <Field field="12/31/2004" selected="True" />
+                <Field field="1/31/2005" selected="True" />
+                <Field field="2/28/2005" selected="True" />
+                <Field field="3/31/2005" selected="True" />
+                <Field field="4/30/2005" selected="True" />
+                <Field field="5/31/2005" selected="True" />
+                <Field field="6/30/2005" selected="True" />
+                <Field field="7/31/2005" selected="True" />
+                <Field field="8/31/2005" selected="True" />
+                <Field field="9/30/2005" selected="True" />
+                <Field field="10/31/2005" selected="True" />
+                <Field field="11/30/2005" selected="True" />
+                <Field field="12/31/2005" selected="True" />
+                <Field field="1/31/2006" selected="True" />
+                <Field field="2/28/2006" selected="True" />
+                <Field field="3/31/2006" selected="True" />
+                <Field field="4/30/2006" selected="True" />
+                <Field field="5/31/2006" selected="True" />
+                <Field field="6/30/2006" selected="True" />
+                <Field field="7/31/2006" selected="True" />
+                <Field field="8/31/2006" selected="True" />
+                <Field field="9/30/2006" selected="True" />
+                <Field field="10/31/2006" selected="True" />
+                <Field field="11/30/2006" selected="True" />
+                <Field field="12/31/2006" selected="True" />
+                <Field field="1/31/2007" selected="True" />
+                <Field field="2/28/2007" selected="True" />
+                <Field field="3/31/2007" selected="True" />
+                <Field field="4/30/2007" selected="True" />
+                <Field field="5/31/2007" selected="True" />
+                <Field field="6/30/2007" selected="True" />
+                <Field field="7/31/2007" selected="True" />
+                <Field field="8/31/2007" selected="True" />
+                <Field field="9/30/2007" selected="True" />
+                <Field field="10/31/2007" selected="True" />
+                <Field field="11/30/2007" selected="True" />
+                <Field field="12/31/2007" selected="True" />
+                <Field field="1/31/2008" selected="True" />
+                <Field field="2/29/2008" selected="True" />
+                <Field field="3/31/2008" selected="True" />
+                <Field field="4/30/2008" selected="True" />
+                <Field field="5/31/2008" selected="True" />
+                <Field field="6/30/2008" selected="True" />
+                <Field field="7/31/2008" selected="True" />
+                <Field field="8/31/2008" selected="True" />
+                <Field field="9/30/2008" selected="True" />
+                <Field field="10/31/2008" selected="True" />
+                <Field field="11/30/2008" selected="True" />
+                <Field field="12/31/2008" selected="True" />
+                <Field field="1/31/2009" selected="True" />
+                <Field field="2/28/2009" selected="True" />
+                <Field field="3/31/2009" selected="True" />
+                <Field field="4/30/2009" selected="True" />
+                <Field field="5/31/2009" selected="True" />
+                <Field field="6/30/2009" selected="True" />
+                <Field field="7/31/2009" selected="True" />
+                <Field field="8/31/2009" selected="True" />
+                <Field field="9/30/2009" selected="True" />
+                <Field field="10/31/2009" selected="True" />
+                <Field field="11/30/2009" selected="True" />
+                <Field field="12/31/2009" selected="True" />
+                <Field field="1/31/2010" selected="True" />
+                <Field field="2/28/2010" selected="True" />
+                <Field field="3/31/2010" selected="True" />
+                <Field field="4/30/2010" selected="True" />
+                <Field field="5/31/2010" selected="True" />
+                <Field field="6/30/2010" selected="True" />
+                <Field field="7/31/2010" selected="True" />
+                <Field field="8/31/2010" selected="True" />
+                <Field field="9/30/2010" selected="True" />
+                <Field field="10/31/2010" selected="True" />
+                <Field field="11/30/2010" selected="True" />
+                <Field field="12/31/2010" selected="True" />
+                <Field field="1/31/2011" selected="True" />
+                <Field field="2/28/2011" selected="True" />
+                <Field field="3/31/2011" selected="True" />
+                <Field field="4/30/2011" selected="True" />
+                <Field field="5/31/2011" selected="True" />
+                <Field field="6/30/2011" selected="True" />
+                <Field field="7/31/2011" selected="True" />
+                <Field field="8/31/2011" selected="True" />
+                <Field field="9/30/2011" selected="True" />
+                <Field field="10/31/2011" selected="True" />
+                <Field field="11/30/2011" selected="True" />
+                <Field field="12/31/2011" selected="True" />
+                <Field field="1/31/2012" selected="True" />
+                <Field field="2/29/2012" selected="True" />
+                <Field field="3/31/2012" selected="True" />
+                <Field field="4/30/2012" selected="True" />
+                <Field field="5/31/2012" selected="True" />
+                <Field field="6/30/2012" selected="True" />
+                <Field field="7/31/2012" selected="True" />
+                <Field field="8/31/2012" selected="True" />
+                <Field field="9/30/2012" selected="True" />
+                <Field field="10/31/2012" selected="True" />
+                <Field field="11/30/2012" selected="True" />
+                <Field field="12/31/2012" selected="True" />
+                <Field field="1/31/2013" selected="True" />
+                <Field field="2/28/2013" selected="True" />
+                <Field field="3/31/2013" selected="True" />
+                <Field field="4/30/2013" selected="True" />
+                <Field field="5/31/2013" selected="True" />
+                <Field field="6/30/2013" selected="True" />
+                <Field field="7/31/2013" selected="True" />
+                <Field field="8/31/2013" selected="True" />
+                <Field field="9/30/2013" selected="True" />
+                <Field field="10/31/2013" selected="True" />
+                <Field field="11/30/2013" selected="True" />
+                <Field field="12/31/2013" selected="True" />
+                <Field field="1/31/2014" selected="True" />
+                <Field field="2/28/2014" selected="True" />
+                <Field field="3/31/2014" selected="True" />
+                <Field field="4/30/2014" selected="True" />
+                <Field field="5/31/2014" selected="True" />
+                <Field field="6/30/2014" selected="True" />
+                <Field field="7/31/2014" selected="True" />
+                <Field field="8/31/2014" selected="True" />
+                <Field field="9/30/2014" selected="True" />
+                <Field field="10/31/2014" selected="True" />
+                <Field field="11/30/2014" selected="True" />
+                <Field field="12/31/2014" selected="True" />
+                <Field field="1/31/2015" selected="True" />
+                <Field field="2/28/2015" selected="True" />
+                <Field field="3/31/2015" selected="True" />
+                <Field field="4/30/2015" selected="True" />
+                <Field field="5/31/2015" selected="True" />
+                <Field field="6/30/2015" selected="True" />
+                <Field field="7/31/2015" selected="True" />
+                <Field field="8/31/2015" selected="True" />
+                <Field field="9/30/2015" selected="True" />
+                <Field field="10/31/2015" selected="True" />
+                <Field field="11/30/2015" selected="True" />
+                <Field field="12/31/2015" selected="True" />
+                <Field field="1/31/2016" selected="True" />
+                <Field field="2/29/2016" selected="True" />
+                <Field field="3/31/2016" selected="True" />
+                <Field field="4/30/2016" selected="True" />
+                <Field field="5/31/2016" selected="True" />
+                <Field field="6/30/2016" selected="True" />
+                <Field field="7/31/2016" selected="True" />
+                <Field field="8/31/2016" selected="True" />
+                <Field field="9/30/2016" selected="True" />
+                <Field field="10/31/2016" selected="True" />
+                <Field field="11/30/2016" selected="True" />
+                <Field field="12/31/2016" selected="True" />
+                <Field field="1/31/2017" selected="True" />
+                <Field field="2/28/2017" selected="True" />
+                <Field field="3/31/2017" selected="True" />
+                <Field field="4/30/2017" selected="True" />
+                <Field field="5/31/2017" selected="True" />
+                <Field field="6/30/2017" selected="True" />
+                <Field field="7/31/2017" selected="True" />
+                <Field field="8/31/2017" selected="True" />
+                <Field field="9/30/2017" selected="True" />
+                <Field field="10/31/2017" selected="True" />
+                <Field field="11/30/2017" selected="True" />
+                <Field field="12/31/2017" selected="True" />
+                <Field field="1/31/2018" selected="True" />
+                <Field field="2/28/2018" selected="True" />
+                <Field field="3/31/2018" selected="True" />
+                <Field field="4/30/2018" selected="True" />
+                <Field field="5/31/2018" selected="True" />
+                <Field field="6/30/2018" selected="True" />
+                <Field field="7/31/2018" selected="True" />
+                <Field field="8/31/2018" selected="True" />
+                <Field field="9/30/2018" selected="True" />
+                <Field field="10/31/2018" selected="True" />
+                <Field field="11/30/2018" selected="True" />
+                <Field field="12/31/2018" selected="True" />
+                <Field field="1/31/2019" selected="True" />
+                <Field field="2/28/2019" selected="True" />
+                <Field field="3/31/2019" selected="True" />
+                <Field field="4/30/2019" selected="True" />
+                <Field field="5/31/2019" selected="True" />
+                <Field field="6/30/2019" selected="True" />
+                <Field field="7/31/2019" selected="True" />
+                <Field field="8/31/2019" selected="True" />
+                <Field field="9/30/2019" selected="True" />
+                <Field field="10/31/2019" selected="True" />
+                <Field field="11/30/2019" selected="True" />
+                <Field field="12/31/2019" selected="True" />
+                <Field field="1/31/2020" selected="True" />
+                <Field field="2/29/2020" selected="True" />
+                <Field field="3/31/2020" selected="True" />
+                <Field field="4/30/2020" selected="True" />
+                <Field field="5/31/2020" selected="True" />
+                <Field field="6/30/2020" selected="True" />
+                <Field field="7/31/2020" selected="True" />
+                <Field field="8/31/2020" selected="True" />
+                <Field field="9/30/2020" selected="True" />
+                <Field field="10/31/2020" selected="True" />
+                <Field field="11/30/2020" selected="True" />
+                <Field field="12/31/2020" selected="True" />
+                <Field field="1/31/2021" selected="True" />
+                <Field field="2/28/2021" selected="True" />
+                <Field field="3/31/2021" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>converted to tabuler format</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="390" y="762" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotNull</Operator>
+                <Field>Value</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-05-05 17:47:13</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2021-05-05 17:47:13</StartDate>
+                  <EndDate>2021-05-05 17:47:13</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Removed null data</AnnotationText>
+              <DefaultAnnotationText>!IsNull([Value])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="534" y="762" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Name</InputFieldName>
+              <Language>English</Language>
+              <Format>MM-dd-yyyy</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Converted to date to use in filter</AnnotationText>
+              <DefaultAnnotationText>Convert Name From:
+MM-dd-yyyy</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="654" y="762" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="RegionName" selected="True" rename="city" />
+                <SelectField field="Name" selected="False" rename="House_date" type="Date" size="10" />
+                <SelectField field="Value" selected="True" rename="house_price" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>fixed field names</AnnotationText>
+              <DefaultAnnotationText>fixed field names</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="798" y="762" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>&gt;=</Operator>
+                <Field>DateTime_Out</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-05-05 18:23:59</PeriodDate>
+                  <PeriodType>days</PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>2010-01-01</Operand>
+                  <StartDate>2021-05-05 18:23:59</StartDate>
+                  <EndDate>2021-05-05 18:23:59</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>filtered data &gt;= year 2010</AnnotationText>
+              <DefaultAnnotationText>[DateTime_Out] &gt;= "2010-01-01"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="942" y="762" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>DateTime</FieldType>
+              <Fields orderChanged="False">
+                <Field name="DateTime_Out" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <NewFieldAddOn>New_month</NewFieldAddOn>
+              <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+              <CopyOutput value="True" />
+              <Expression>DateTimeMonth([DateTime_Out])</Expression>
+              <ChangeFieldType value="True" />
+              <OutputFieldType type="Int32" size="4" scale="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>extracted month from the date</AnnotationText>
+              <DefaultAnnotationText>DateTimeMonth([DateTime_Out])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="1062" y="750" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>Numeric</FieldType>
+              <Fields orderChanged="False">
+                <Field name="New_monthDateTime_Out" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <NewFieldAddOn>New_year</NewFieldAddOn>
+              <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+              <CopyOutput value="True" />
+              <Expression>DateTimeYear([DateTime_Out])</Expression>
+              <ChangeFieldType value="True" />
+              <OutputFieldType type="Int64" size="8" scale="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>extracted year from the date</AnnotationText>
+              <DefaultAnnotationText>DateTimeYear([DateTime_Out])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1170" y="750" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="house_price" selected="True" type="Double" size="8" />
+                <SelectField field="DateTime_Out" selected="False" />
+                <SelectField field="New_monthDateTime_Out" selected="True" rename="month" />
+                <SelectField field="New_yearNew_monthDateTime_Out" selected="True" rename="year" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>fixed field names</AnnotationText>
+              <DefaultAnnotationText>fixed field names</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1493" y="461" width="312" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption><![CDATA[Create Output in CSV ]]></Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1518" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="city" />
+                <Field field="State" />
+                <Field field="month" />
+                <Field field="year" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="city" />
+                <Field field="State" />
+                <Field field="month" />
+                <Field field="year" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_city" selected="False" rename="Right_city" input="Right_" />
+                    <SelectField field="Right_State" selected="False" rename="Right_State" input="Right_" />
+                    <SelectField field="Right_month" selected="False" rename="Right_month" input="Right_" />
+                    <SelectField field="Right_year" selected="False" rename="Right_year" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Joined Airbnb and Housing data</AnnotationText>
+              <DefaultAnnotationText>Jpined Airbnb and Housing data</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1674" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\corelation_homeprice_arbnb.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>CSV extract for co-relation</AnnotationText>
+              <DefaultAnnotationText>corelation_homeprice_arbnb.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1121" y="437" width="257" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Join Housing and  Airbnb Data</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1146" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="city" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="city" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_city" selected="False" rename="Right_city" input="Right_" />
+                    <SelectField field="Right_State" selected="False" rename="Right_State" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Joined data only required for Airbnb ]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Joined data only required for Airbnb ]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1254" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="city" action="GroupBy" rename="city" />
+                <SummarizeField field="State" action="GroupBy" rename="State" />
+                <SummarizeField field="month" action="GroupBy" rename="month" />
+                <SummarizeField field="year" action="GroupBy" rename="year" />
+                <SummarizeField field="house_price" action="Avg" rename="Avg_house_price" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>summarized housing data for co-relation</AnnotationText>
+              <DefaultAnnotationText>summarized by year and month</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1086" y="42" width="797" height="262" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Convert data for co-relation</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="1146" y="137" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>last_review</InputFieldName>
+              <Language>English</Language>
+              <Format>dd-MM-yy</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>converted to date</AnnotationText>
+              <DefaultAnnotationText>Convert last_review From:
+dd-MM-yy</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="1266" y="137" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>DateTime</FieldType>
+              <Fields orderChanged="False">
+                <Field name="DateTime_Out" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <NewFieldAddOn>New_month</NewFieldAddOn>
+              <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+              <CopyOutput value="True" />
+              <Expression>DateTimeMonth([DateTime_Out])</Expression>
+              <ChangeFieldType value="True" />
+              <OutputFieldType type="Int32" size="4" scale="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>extracted month from date</AnnotationText>
+              <DefaultAnnotationText>DateTimeMonth([DateTime_Out])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="1386" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>DateTime</FieldType>
+              <Fields orderChanged="False">
+                <Field name="DateTime_Out" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <NewFieldAddOn>New_year</NewFieldAddOn>
+              <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+              <CopyOutput value="True" />
+              <Expression>DateTimeYear([DateTime_Out])</Expression>
+              <ChangeFieldType value="True" />
+              <OutputFieldType type="Int32" size="4" scale="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>extracted year from date</AnnotationText>
+              <DefaultAnnotationText>DateTimeYear([DateTime_Out])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1482" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="id" selected="False" />
+                <SelectField field="name" selected="False" />
+                <SelectField field="host_id" selected="False" />
+                <SelectField field="host_name" selected="False" />
+                <SelectField field="neighbourhood_group" selected="False" />
+                <SelectField field="neighbourhood" selected="False" />
+                <SelectField field="latitude" selected="False" />
+                <SelectField field="longitude" selected="False" />
+                <SelectField field="room_type" selected="False" />
+                <SelectField field="price" selected="True" rename="airbnb_price" type="Double" size="8" />
+                <SelectField field="minimum_nights" selected="False" />
+                <SelectField field="number_of_reviews" selected="False" />
+                <SelectField field="last_review" selected="False" />
+                <SelectField field="reviews_per_month" selected="False" />
+                <SelectField field="calculated_host_listings_count" selected="False" />
+                <SelectField field="availability_365" selected="False" />
+                <SelectField field="DateTime_Out" selected="False" />
+                <SelectField field="New_monthDateTime_Out" selected="True" rename="month" />
+                <SelectField field="New_yearDateTime_Out" selected="True" rename="year" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>selected required fields for co-relation</AnnotationText>
+              <DefaultAnnotationText>selected required fields for co-relation</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1602" y="126" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="city" action="GroupBy" rename="city" />
+                <SummarizeField field="State" action="GroupBy" rename="State" />
+                <SummarizeField field="month" action="GroupBy" rename="month" />
+                <SummarizeField field="year" action="GroupBy" rename="year" />
+                <SummarizeField field="airbnb_price" action="Avg" rename="Avg_airbnb_price" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[summarized Airbnb data for co-relation
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[summarized Airbnb data for co-relation]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1722" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="SmartRound([Avg_airbnb_price])" field="Avg_airbnb_price" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[rounded average price ]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Avg_airbnb_price = SmartRound([Avg_airbnb_price])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="800" y="176" width="235" height="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Output for Tableau Analysis</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="20" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="810" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="42" MaxRecords="">C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\Capstone2_mayekar.tde</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <OutputOption>Create</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Tableau extract for the capstone2 project</AnnotationText>
+              <DefaultAnnotationText>Capstone2_mayekar.tde</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="0" y="0" width="452" height="403" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Merge Data file with States</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="180" y="84" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="id" selected="True" />
+                <Field field="name" selected="True" />
+                <Field field="host_id" selected="True" />
+                <Field field="host_name" selected="True" />
+                <Field field="neighbourhood_group" selected="True" />
+                <Field field="neighbourhood" selected="True" />
+                <Field field="latitude" selected="True" />
+                <Field field="longitude" selected="True" />
+                <Field field="room_type" selected="True" />
+                <Field field="price" selected="True" />
+                <Field field="minimum_nights" selected="True" />
+                <Field field="number_of_reviews" selected="True" />
+                <Field field="last_review" selected="True" />
+                <Field field="reviews_per_month" selected="True" />
+                <Field field="calculated_host_listings_count" selected="True" />
+                <Field field="availability_365" selected="True" />
+                <Field field="city" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>fixed data type sizes</AnnotationText>
+              <DefaultAnnotationText><![CDATA[Auto Field ]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="id" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="Int32" />
+                <Field name="name" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="host_id" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="Int32" />
+                <Field name="host_name" size="65" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="neighbourhood_group" size="20" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_String" />
+                <Field name="neighbourhood" size="97" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_String" />
+                <Field name="latitude" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="Double" />
+                <Field name="longitude" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="Double" />
+                <Field name="room_type" size="15" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="String" />
+                <Field name="price" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="Int16" />
+                <Field name="minimum_nights" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="Int32" />
+                <Field name="number_of_reviews" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="Int16" />
+                <Field name="last_review" size="10" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="String" />
+                <Field name="reviews_per_month" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="Double" />
+                <Field name="calculated_host_listings_count" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="Int16" />
+                <Field name="availability_365" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="Int16" />
+                <Field name="city" size="17" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="60" y="89" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>AirBNB_US_2020.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="id" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="name" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="host_id" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="host_name" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="neighbourhood_group" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="neighbourhood" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="latitude" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="longitude" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="room_type" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="price" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="minimum_nights" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="number_of_reviews" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="last_review" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="reviews_per_month" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="calculated_host_listings_count" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="availability_365" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+                <Field name="city" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\AirBNB_US_2020.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="288" y="84" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[price]=0 OR [availability_365]=0</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[ Price = 0 and availability_365 = 0  indicates listings are out of business]]></AnnotationText>
+              <DefaultAnnotationText>[price]=0 OR [availability_365]=0</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="84" y="252" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\states.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>US States and city data</AnnotationText>
+              <DefaultAnnotationText>states.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="city" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\states.csv" type="V_WString" />
+                <Field name="state" size="254" source="File: C:\Users\17322\Documents\Teksystem_bootcamp\Capstone2\states.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="533" y="89" width="151" height="195" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Join</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="558" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="city" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="city" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_id" selected="True" input="Left_" type="V_String" size="254" />
+                    <SelectField field="Left_host_id" selected="True" input="Left_" type="V_String" size="254" />
+                    <SelectField field="Right_city" selected="False" rename="Right_city" input="Right_" />
+                    <SelectField field="Right_state" selected="True" rename="State" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>added state to the actual data set for state wise visualization</AnnotationText>
+              <DefaultAnnotationText>Join Actual Data set with state detail file to get better view.</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="True" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="True" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="36" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="36" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Join" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Join" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="46" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="False" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Capstone2_mayekar</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
